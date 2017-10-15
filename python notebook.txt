@@ -1,0 +1,12 @@
+1-lists 
+2-strings
+3-tuples: like lists bot without the brackets
+4-dictionaries: {"name":value,....}
+
+5-Basic library to analyze data in python is PANDAS
+	1)df.head(10) prints first 10 lines of the dataset
+	2)df.describe() returns all statistical numbers that has to do with numerical fields
+	3)
+
+
+bigdata-edu-001
