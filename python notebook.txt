@@ -1,12 +1,62 @@
-1-lists 
-2-strings
-3-tuples: like lists bot without the brackets
-4-dictionaries: {"name":value,....}
+1)EPILOGH STHLHS
 
-5-Basic library to analyze data in python is PANDAS
-	1)df.head(10) prints first 10 lines of the dataset
-	2)df.describe() returns all statistical numbers that has to do with numerical fields
-	3)
+	data['onoma sthlhs']
 
+EPILOGH ari8mou rows se mia sthlh
 
-bigdata-edu-001
+	data['onoma sthlhs'][:6]  --> prwtes 6 grammes h kai xwris onoma sthlhs gia ola ta columns
+
+EPILOGH 2 KAI PERISSOTERWN STHLWN
+
+	data[['onoma sthlhs', 'allh sthlh']]
+
+2)gia na kanw plot
+
+	data['onoma sthlhs'].plot()
+
+	prepei na exei 2 columns gia na ektipw8ei kateu8eian
+
+3)genika statistika dedomena
+
+	data.describe()
+
+4)EKTIPWSH poses fores emfanizetai kapoia timh
+
+	data['onoma sthlhs'].value_counts()  -->   data['onoma sthlhs'][:10].value_counts()  ta deka prwta
+
+	complaint_counts[:10].plot(kind='bar') --> diagramma me mpares 
+
+5)EPILOGH ROWS VASH THN TIMH PEDIOU
+
+	noise_complaints = complaints[complaints['Complaint Type'] == "Noise - Street/Sidewalk"]
+
+6)Gia na sindiasw dedomena me meres
+
+	read chapter 4 sta tutorials
+
+7)OMADOPOIHSH DEDOMENWN ENOS DATAFRAME
+
+	data.groupby('column').aggregate(sum)  --> a8roisma
+	
+8)ALLAGH TOU INDEXING
+
+	weekday_counts.index = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+	Ipo8etw oti paizei mono me to indexing ths prwths sthlhs
+
+9)ADEIES TIMES SE COLUMNS-->dropna
+
+	new_data= data.dropna(axis=1, how='any')
+	axis: 1-->drop columns 0-->drop rows
+	how: drop the column if any value is null
+
+10)VGAZW STHLES
+
+	new_data= data.drop([STHLH,STHLH,,,,], axis=1) -->TIS STHLES POU 8ELOUME NA DIW3OUME
+
+11)!!! STRINGS CHAPTER 6
+
+12)GIA NA ORISEIS NEO ONOMA SE STHLH
+
+	snowiness.name = "Snowiness"
+ 
+	
