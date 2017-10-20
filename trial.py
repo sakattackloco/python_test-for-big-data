@@ -21,4 +21,5 @@ for specific_forum_id in forum_ids:
     specific_threads = threads.loc[(threads["og_forum_id"]==specific_forum_id)]
     #print(specific_threads['thread_id'].describe())
 
-course_info['hours'][:5].plot(figsize=(15, 6))
+print(course_threads[:6060])
+
